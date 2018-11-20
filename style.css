@@ -1,0 +1,262 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color:#fff;
+}
+.wrapper{
+    width:80%;
+}
+a, a:active, a:hover, a:visited, a:link, a:{
+    text-decoration: none;
+    color:#fff;
+}
+.background{
+    height:737px;
+    width:100%;
+    background-image:url(images/background-header.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    color:#fff;
+}
+
+.nav_wrapper{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px;
+    color:#fff;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+}
+
+.logo{
+    font-size:25px;
+    padding:0;
+    margin:0;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+li a{
+    border:3px solid transparent;
+    border-radius:50px;
+    padding:10px;
+    margin:10px;
+}
+
+li a:hover{
+    border-color:#fff;
+}
+.space-between{
+    justify-content: space-between;
+}
+/*
+############################
+LETS GET LOST IN THIS CODE##
+############################
+############################
+*/
+
+.lost{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lost h2{
+    font-family: 'chunkfiveroman', serif;
+    font-weight: bolder;
+    font-size:70px;
+    margin:100px 0 10px 0;
+    
+}
+
+.blue{
+    color:#00a2a5;
+}
+
+.lost span:nth-child(3){
+    margin:15px;
+}
+
+.lost [type="button"]{
+    border:0;
+    border-radius:30px;
+    background-color:#ffffa7;
+    padding:20px;
+    font-weight: bolder;
+    font-size:15px;
+    font-family:'Montserrat', sans-serif;
+    margin-top:50px;
+    width:200px;
+    cursor:pointer;
+}
+
+.transparent_white{
+    margin-top:230px;
+    width:100%;
+    background-color:#fff;
+    height:50px;
+    opacity:0.85;
+}
+
+.lost [type="button"]:hover{
+    background-color:#868657;
+}
+
+.love{
+    width:100%;
+    background-color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px 0 100px 0
+}
+
+.love .wrapper{
+    width:70%;
+    display:flex;
+    align-items:center;
+    padding:50px;
+}
+.city{
+    background-image:url(images/city.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:300px;
+    width:40%;
+}
+.greenish{
+    color:#29d9c2;
+}
+h3{
+    font-size:60px;
+    font-weight: bold;
+    margin:0 0 30px 0;
+
+}
+.text{
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.description{
+    font-size:14px;
+    line-height: 35px;
+    color:#777777;
+}
+
+.destination{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f2fefe;
+}
+
+.wrapper{
+    width:70%;    
+}
+
+.row-wrapper{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.information{
+    display:flex;
+    width:20%;
+    flex-direction: row;
+}
+.icon{
+    color:#fff;
+    text-align:center;
+    border-radius:20px;
+    background-color:#c3c1c2;
+    width:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+        
+    
+}
+.fa-info{
+    font-size:10px;
+    font-style: italic;
+}
+.gray{
+    color:#c3c1c2;
+    height:20px;
+    display:flex;
+    cursor:pointer;
+}
+
+.gray:hover{
+    color:#818081;
+}
+
+.gray:hover .icon{
+    background-color:#818081;
+}
+
+.destination .wrapper .description{
+    width:60%;    
+    margin-top:50px;
+}
+
+[type="search"]{
+    border:1px solid #bcbcbc;
+    padding:10px;    
+    background:url(images/search.png) no-repeat scroll 10px;
+    padding-left:40px;
+    border-radius:20px;
+    width:230px;
+}
+
+[type="search"]::placeholder{
+    color:#bcbcbc;
+}
+
+[type="search"]:focus{
+    outline:0;
+    border:1px solid #3847ff;
+}
+label{
+    cursor:pointer;
+    color:#909090;
+    margin:0 10px;
+}
+[type="radio"]{
+    display:none;
+}
+
+.row-wrapper [type="radio"]:checked + label {
+    font-weight: 700;
+    color:#5d5d5d;
+}
+
+.destination .row-wrapper{
+    margin-bottom:30px;
+}
